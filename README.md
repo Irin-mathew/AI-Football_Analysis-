@@ -74,6 +74,35 @@ This application uses the YOLOv8 object detection model to track football player
 3. Calculates distance, speed, and other metrics based on position changes
 4. Generates visualizations and statistics for each detected player
 
+## Output Visualizations
+
+The Football Performance Analyzer provides powerful visual insights into player performance through intuitive visualizations.
+
+### Player Statistics & Selection Interface
+(Output1.png)
+The player selection interface allows coaches and analysts to:
+- Select individual players from the detected roster
+- View high-resolution cropped images of each player for easy identification
+- Access comprehensive performance metrics for the selected player including:
+  - Total distance covered during the match
+  - Average movement speed
+  - Maximum sprint speed 
+  - Time-based performance trends
+
+This intuitive interface bridges the gap between raw data and actionable insights, making it easy to compare player performances and make informed decisions during training and match preparation.
+
+### Player Movement Heatmaps
+
+(Output2.png)
+The heatmap visualization provides a spatial analysis of player movement patterns:
+- Color intensity represents time spent in different areas of the pitch
+- Identifies player positioning tendencies and zone preferences
+- Highlights defensive coverage and attacking movement patterns
+- Shows participation in different phases of play
+
+Coaches can use these heatmaps to analyze positioning discipline, identify spatial weaknesses in formation, and recognize player movement patterns that might not be apparent from traditional statistics alone.
+
+These visual analytics transform complex tracking data into clear, actionable insights that can inform tactical decisions and player development strategies.
 
 ## Acknowledgments
 
